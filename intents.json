@@ -1,0 +1,373 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hey",
+        "Hi",
+        "Greetings",
+        "What's up?",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Hey! Need any assistance?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you soon! Stay safe.",
+        "Take care! Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "Much appreciated",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Anytime! Happy to help.",
+        "Glad I could assist!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "Tell me the weather",
+        "Is it raining today?",
+        "Do I need an umbrella?"
+      ],
+      "responses": [
+        "I can check the weather for you. Which city are you in?",
+        "Sure! Where are you located?",
+        "Let me fetch the latest weather update. Please provide a location."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Tell me the current time",
+        "What's the time now?",
+        "Can you give me the time?"
+      ],
+      "responses": [
+        "The current time is [dynamic_time].",
+        "It's [dynamic_time] right now.",
+        "Let me check... it's [dynamic_time]."
+      ]
+    },
+    {
+      "tag": "ai_capabilities",
+      "patterns": [
+        "What can you do?",
+        "Tell me about your features",
+        "How can you help me?",
+        "What services do you provide?"
+      ],
+      "responses": [
+        "I can answer general questions, provide weather updates, tell the time, and assist with various queries!",
+        "I can chat with you, answer questions, and even help with AI and programming topics.",
+        "I'm here to assist with general queries, provide recommendations, and chat with you!"
+      ]
+    },
+    {
+      "tag": "developer_info",
+      "patterns": [
+        "Who created you?",
+        "Who developed this chatbot?",
+        "Tell me about your developers"
+      ],
+      "responses": [
+        "I was built by a Data Scientist enthusiast using NLP and machine learning.",
+        "I was created as an intelligent chatbot using deep learning and NLP techniques.",
+        "My creator designed me using state-of-the-art AI models!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?",
+        "I need a joke"
+      ],
+      "responses": [
+        "Why don't skeletons fight each other? Because they don't have the guts!",
+        "Why was the math book sad? It had too many problems.",
+        "Parallel lines have so much in common. It's a shame they'll never meet!"
+      ]
+    },
+    {
+      "tag": "life_advice",
+      "patterns": [
+        "Give me some life advice",
+        "What should I do with my life?",
+        "I need guidance",
+        "Help me figure things out",
+        "What's your best advice?"
+      ],
+      "responses": [
+        "Honestly? Take it one step at a time. You don't need to have it all figured out right now.",
+        "Here's my advice: Be kind to yourself. You're doing better than you think.",
+        "Life's too short to worry about everything. Focus on what makes you happy."
+      ]
+    },
+    {
+      "tag": "honest_opinion",
+      "patterns": [
+        "Be honest with me",
+        "Tell me the truth",
+        "What do you really think?",
+        "Give it to me straight",
+        "No sugarcoating"
+      ],
+      "responses": [
+        "Okay, honestly? You're overthinking this. Trust yourself more.",
+        "Truth time: You're capable of way more than you give yourself credit for.",
+        "Straight up? You're doing better than you think. Keep going."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "I need motivation",
+        "Cheer me up",
+        "I'm feeling stuck",
+        "Help me stay motivated",
+        "Give me a pep talk"
+      ],
+      "responses": [
+        "You've got this! Even small steps are progress. Keep moving forward.",
+        "Remember: Every expert was once a beginner. Don't give up!",
+        "Motivation comes and goes, but discipline will keep you going. You're stronger than you think!"
+      ]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": [
+        "Tell me a fun fact",
+        "Give me something interesting",
+        "What's a cool fact?",
+        "Teach me something new",
+        "Surprise me"
+      ],
+      "responses": [
+        "Did you know octopuses have three hearts? Two pump blood to the gills, and one to the rest of the body.",
+        "Fun fact: Bananas are berries, but strawberries aren't. Weird, right?",
+        "Here's one: Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still edible!"
+      ]
+    },
+    {
+      "tag": "relationship_advice",
+      "patterns": [
+        "What should I do about my relationship?",
+        "I need relationship advice",
+        "How do I handle this situation?",
+        "Help me with my love life",
+        "What's your take on relationships?"
+      ],
+      "responses": [
+        "Honestly? Communication is key. Talk it out, even if it's uncomfortable.",
+        "My advice: Don't settle for less than you deserve. You're worth it.",
+        "Relationships are a two-way street. Make sure you're both putting in the effort."
+      ]
+    },
+    {
+      "tag": "self_care",
+      "patterns": [
+        "How do I take care of myself?",
+        "I need self-care tips",
+        "What's a good way to relax?",
+        "How can I feel better?",
+        "I'm stressed, help me"
+      ],
+      "responses": [
+        "Self-care isn't selfish. Take a break, breathe, and do something you enjoy.",
+        "Try this: Go for a walk, listen to your favorite music, or just sit quietly for a few minutes.",
+        "Honestly? Sometimes the best self-care is saying no to things that drain you."
+      ]
+    },
+    {
+      "tag": "random_thought",
+      "patterns": [
+        "What's on your mind?",
+        "Tell me something random",
+        "What are you thinking about?",
+        "Say something unexpected",
+        "What's a random thought?"
+      ],
+      "responses": [
+        "Honestly? I think pineapples on pizza are a vibe. Fight me.",
+        "Random thought: If we evolved from monkeys, why are there still monkeys?",
+        "Here's a random one: Why do we say ‘heads up' when we really mean ‘duck'?"
+      ]
+    },
+    {
+      "tag": "encouragement",
+      "patterns": [
+        "I'm feeling down",
+        "Cheer me up",
+        "I need encouragement",
+        "I'm having a bad day",
+        "Help me feel better"
+      ],
+      "responses": [
+        "Hey, it's okay to have bad days. You're still amazing, and tomorrow will be better.",
+        "You're stronger than you think. This tough moment will pass, I promise.",
+        "Here's a virtual hug. You've got this, and I believe in you!"
+      ]
+    },
+    {
+      "tag": "customer_support",
+      "patterns": [
+        "I have an issue",
+        "I need help with my order",
+        "Customer support"
+      ],
+      "responses": [
+        "Can you describe the issue in more detail?",
+        "I'm here to help! What's the problem?",
+        "Let me know the issue, and I'll try my best to assist you!"
+      ]
+    },
+    {
+      "tag": "programming_help",
+      "patterns": [
+        "Help me with Python",
+        "How do I fix a bug?",
+        "What is an API?",
+        "Explain machine learning"
+      ],
+      "responses": [
+        "I can help with coding! What do you need assistance with?",
+        "Ask away! I love solving programming problems!",
+        "Machine learning is a field of AI that allows computers to learn patterns from data without explicit programming."
+      ]
+    },
+    {
+      "tag": "history",
+      "patterns": [
+        "Tell me a historical fact",
+        "Who was Napoleon?",
+        "What happened in World War 2?"
+      ],
+      "responses": [
+        "Napoleon was a French military leader who rose to power during the French Revolution.",
+        "World War 2 lasted from 1939 to 1945 and involved many nations across the world.",
+        "The Great Wall of China was built to protect against invasions over several centuries."
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "Who won the last World Cup?",
+        "Tell me about football",
+        "Who is the best basketball player?"
+      ],
+      "responses": [
+        "The last World Cup winner was [team name] in [year] (you may need to update this info).",
+        "Football is a global sport played between two teams of 11 players aiming to score goals.",
+        "There are many great basketball players, but Michael Jordan and LeBron James are among the most famous."
+      ]
+    },
+    {
+      "tag": "science",
+      "patterns": [
+        "Tell me a science fact",
+        "What is quantum physics?",
+        "Explain relativity"
+      ],
+      "responses": [
+        "Water expands when it freezes, unlike most substances.",
+        "Quantum physics deals with the behavior of particles on a very small scale.",
+        "Einstein's theory of relativity explains how time and space are linked."
+      ]
+    },
+    {
+      "tag": "small_talk",
+      "patterns": ["How are you?", "What's up?", "How's it going?"],
+      "responses": [
+        "I'm just a bot, but I'm doing great! How about you?",
+        "All systems operational! How can I assist?",
+        "I'm here to help! What do you need?"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+        "You're stupid",
+        "You're useless",
+        "I hate you",
+        "You're annoying",
+        "You're dumb"
+      ],
+      "responses": [
+        "I'm sorry you feel that way. How can I improve?",
+        "I'm here to help. Let me know how I can assist you better.",
+        "I apologize if I upset you. Let's try again."
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You're awesome",
+        "You're amazing",
+        "I like you",
+        "You're the best",
+        "You're so helpful"
+      ],
+      "responses": [
+        "Thank you! You're awesome too!",
+        "I appreciate the compliment!",
+        "You're making me blush!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "What is your age?",
+        "When were you created?",
+        "How long have you been around?"
+      ],
+      "responses": [
+        "I'm just a chatbot, so I don't have an age!",
+        "I was created recently, so I'm still learning!",
+        "Age is just a number for me!"
+      ]
+    },
+    {
+      "tag": "love",
+      "patterns": [
+        "Do you love me?",
+        "Can you fall in love?",
+        "Do you have feelings?",
+        "Do you feel love?"
+      ],
+      "responses": [
+        "I'm just a chatbot, so I don't have feelings!",
+        "I can't feel love, but I'm here to help you!",
+        "I don't have emotions, but I care about helping you."
+      ]
+    }
+  ]
+}
